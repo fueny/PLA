@@ -1,0 +1,27 @@
+# Core dependencies
+langchain                # Base LangChain framework
+langchain-core           # Core components like PromptTemplate, StrOutputParser
+langchain-openai         # OpenAI integration
+langchain-anthropic      # Anthropic Claude integration
+langchain-groq           # Groq integration (for Grok AI)
+langchain-community      # Community extensions including vectorstores
+langchain-chroma         # ChromaDB integration
+langgraph                # For building LangChain graphs
+chromadb                 # Vector database
+python-dotenv            # Environment variable management from .env files
+pydantic                 # Data validation
+typing-extensions        # Advanced type hints
+
+# PDF processing
+PyMuPDF  # fitz
+reportlab
+Pillow  # PIL
+
+# Embeddings
+fastembed
+
+# Runtime management and timing
+# Note: threading is part of Python standard library, no need to install
+
+# Utilities
+# Note: argparse is part of Python standard library, no need to install
